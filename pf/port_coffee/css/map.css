@@ -1,0 +1,29 @@
+#container{ padding:60px 0; }
+#container .center{ width:62%; margin:20px auto; }
+#container .topText h4{ color:#745752; font-size:26px; text-align:center; margin-top:40px; margin-bottom:80px; }
+#map{ width:100%; height:400px; }
+#container .guide{ text-align:center; margin-top:100px; }
+#container .guide .when{ margin-bottom:25px; }
+#container .guide .when h6{ color:#745752; font-size:18px; margin-bottom:10px; }
+#container .guide .where h6{ color:#745752; font-size:17px; margin-bottom:10px; }
+#container .guide .where h6 span{ color:#967873; font-size:15px; line-height:25px; margin-right:10px; }
+
+/*반응형*/
+
+@media screen and (max-width:840px)
+{
+    #container .center {width:80%;}
+}
+
+@media screen and (max-width:768px)
+{
+    #container .center {width:90%;}
+
+    #container .guide .when h6 {font-size:15px;}
+    #container .guide .where h6 {font-size:15px; line-height:22px;}
+}
+
+@media screen and (max-width:600px)
+{
+    #container .center {width:90%;} 
+}

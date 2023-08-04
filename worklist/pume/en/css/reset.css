@@ -1,0 +1,36 @@
+/*font*/
+.mont {font-family: 'Montserrat', sans-serif;}
+.noto {font-family: 'Noto Sans KR', sans-serif;}
+.notolight {font-weight:300;}
+.notoregu {font-weight:400;}
+.notomedi {font-weight:500;}
+.notobold {font-weight:700;}
+
+:root {
+    --main-color : #082e72;
+    --sub-color : #4b78b8;
+    --main-font-family : 'Noto Sans KR', sans-serif;
+}
+
+*{ margin:0; padding:0; box-sizing:border-box;  }
+body{overflow-x:hidden; line-height:1;  color:#000; font-family: 'Noto Sans KR', sans-serif; letter-spacing:-0.05em; }
+ul, ol, li{ list-style:none; }
+a{ text-decoration:none;  color:#000; }
+video{ vertical-align:top; }
+table{ border-collapse:collapse; table-layout: fixed;}
+/*td {overflow:hidden; white-space : nowrap; text-overflow: ellipsis;}*/
+td > a {overflow:hidden; white-space : nowrap; text-overflow: ellipsis;}
+input{ outline:0; padding-left:10px; border: 1px solid #bbb; font-family: 'Noto Sans KR', sans-serif; -webkit-appearance: none; -webkit-border-radius: 0;}
+input::placeholder {color:#ddd; font-size:16px;}
+select {font-family: 'Noto Sans KR', sans-serif; border: 1px solid #bbb; -webkit-appearance: none; -moz-appearance: none; appearance: none; background: url('../img/sub/arrow_down_000.png') no-repeat 95% 50% #fff; padding:0 15px; -webkit-color:#000;}
+button {font-family: 'Noto Sans KR', sans-serif;}
+label {cursor: pointer;}
+textarea {padding:5px;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+.clear_fix::after{ content:""; display:block; clear:both; }
+.textover {white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+::selection {
+    background-color: var(--main-color);
+    color: #fff;
+}

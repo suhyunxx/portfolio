@@ -1,0 +1,50 @@
+#container {padding:60px 0;}
+#container .center{ width:80%; margin:0 auto; }
+#container .mainTitle h4{ color:#745752; font-size:26px; text-align:center; text-align:center; line-height:28px; margin-top:40px; margin-bottom:80px; }
+#container .mainTitle span{ color:#e1b210; }
+#container .bar{ position:relative; width:2px; height:1000px; background-color:#d3cfcf; margin:0 auto; }
+#container .bar .circle{ position:absolute; width:10px; height:10px; top:0px; left:-4px; border-radius:50%; background-color:#745752; }
+#container .bar .contents{ position:absolute; width:250px; padding-left:20px; }
+#container .bar .contents h4{ color:#745752; font-size:15px; line-height:23px; margin-bottom:10px; }
+#container .bar .contents .yy{ font-size:20px; color:#e1b210; }
+#container .bar .circle1{ top:0%; }
+#container .bar .circle2{ top:20%; }
+#container .bar .circle3{ top:40%; }
+#container .bar .circle4{ top:60%; }
+#container .bar .circle5{ top:80%; }
+#container .bar .contents1{ top:0%; left:0; }
+#container .bar .contents2{ top:20%; right:0; padding-right:20px; padding-left:0; text-align:right; }
+#container .bar .yogiyo_wrap{ position:absolute; top:20%; left:0; padding-left:40px; }
+#container .bar .yogiyo_wrap img{ width:200px; }
+#container .bar .contents3{ top:40%; left:0; }
+#container .bar .jeju_wrap{ position:absolute; top:40%; right:0; padding-right:40px; }
+#container .bar .jeju_wrap img{ width:500px; }
+#container .bar .contents4{ top:60%; right:0; padding-right:20px; padding-left:0; text-align:right; }
+#container .bar .cat_wrap{ position:absolute; top:50%; left:0; padding-left:100px; }
+#container .bar .cat_wrap img{ width:450px; }
+#container .bar .contents5{ top:80%; left:0; }
+
+
+@media (max-width:1200px)
+{
+    #container .bar .jeju_wrap img {width:400px;}
+    #container .bar .cat_wrap img {width:300px;}
+}
+
+@media (max-width:840px)
+{
+    #container .bar .jeju_wrap img {width:200px;}
+    #container .bar .cat_wrap img {width:200px;}
+}
+
+@media (max-width:640px)
+{
+    #container .mainTitle h4  {font-size:23px;}
+    #container .bar .contents .yy {font-size:17px;}
+    #container .bar .contents h4 {font-size:14px;}
+    #container .bar .yogiyo_wrap img {width:180px;}
+    #container .bar .jeju_wrap {padding-right:30px;}
+
+    #container .bar .cat_wrap {padding-left:50px;}
+    #container .bar .cat_wrap img {width:150px;}
+}

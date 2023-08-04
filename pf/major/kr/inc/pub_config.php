@@ -1,0 +1,1 @@
+<?php define('dir','http://majorwith.webmoa21.co.kr/');?>

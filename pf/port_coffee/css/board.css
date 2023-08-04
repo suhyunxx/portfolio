@@ -1,0 +1,17 @@
+#container{ padding:60px 0; height:90vh;}
+#boardWrap .center{ width:62%; margin:20px auto; }
+#boardWrap .topText h4{ color:#745752; font-size:26px; text-align:center; margin-top:40px; margin-bottom:80px; }
+
+.board .boardTop {display:flex; background-color:#e6e6e6;}
+.board .boardTop > h4 { color:#444; text-align:center; line-height:30px; border-top:2px solid #ccc; border-bottom:2px solid #ccc; padding:5px 0;}
+.board .boardTop .number {width:10%; border-right:2px solid #ccc;}
+.board .boardTop .title {width:70%; border-right:2px solid #ccc;}
+.board .boardTop .day {width:20%;}
+
+.board .boardContents {display:flex; padding:10px 0; border-bottom:1px solid #ddd;}
+.board .boardContents:hover {background-color:#f5f5f5e7;}
+.board .boardContents h4 {color:rgb(63, 62, 62); line-height:30px; text-align:center;}
+.board .boardContents .number {width:10%;}
+.board .boardContents .title {width:70%; text-align:left; padding-left:10px;}
+.board .boardContents .title a {display:block; width:100%; color:rgb(63, 62, 62);}
+.board .boardContents .day {width:20%; font-size:15px;}

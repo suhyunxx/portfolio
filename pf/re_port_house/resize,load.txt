@@ -1,0 +1,28 @@
+
+
+addEventListener("resize")
+
+addEventListener("load")
+
+removeEventListener("scroll",()=>{
+
+})
+
+
+
+1. 모바일 화면으로 줄일 때  이벤트 제거 (스크롤과 휠을 제거)
+
+2. 다시 데스크탑 화면으로 볼때는 (스크롤과 휠 기능이 정상 동작)
+
+3. 처음부터 모바일 화면으로 볼 때 이벤트 제거 (스크롤과 휠을 제거)
+
+
+함수 
+
+1. 중복 코드 제거
+
+function 함수명(){
+
+실행할 코드
+실행할 코드
+}

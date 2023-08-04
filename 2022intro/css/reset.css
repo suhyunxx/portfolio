@@ -1,0 +1,22 @@
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+/*200 400 600*/
+.knewave {font-family: 'Knewave', cursive;}
+*{ margin:0; padding:0; box-sizing:border-box; font-family: 'S-CoreDream-3Light';}
+body{overflow-x:hidden; line-height:1;  color:#000; letter-spacing:-0.05em;}
+ul, ol, li{ list-style:none; }
+a{ text-decoration:none; color:#000; }
+video{ vertical-align:top; }
+table{ border-collapse:collapse; table-layout: fixed;}
+td {overflow:hidden; white-space : nowrap; text-overflow: ellipsis;}
+td > a {overflow:hidden; white-space : nowrap; text-overflow: ellipsis;}
+input{ outline:0; padding-left:10px;}
+label {cursor: pointer;}
+textarea {padding:5px;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+.clear_fix::after{ content:""; display:block; clear:both; }
+.textover {white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}

@@ -1,0 +1,29 @@
+@media (max-width:840px) 
+{
+    #container {
+        #sec2 {
+            .center {
+                padding:40px 30px;
+                form {
+                    > div {
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width:500px) 
+{
+    #container {
+        #sec1 {
+            .center {
+                .topTitle {
+                    text-align:center;
+                }
+            }
+        }
+    }
+    
+}

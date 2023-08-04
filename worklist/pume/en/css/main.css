@@ -1,0 +1,226 @@
+.vis_txt {height:208px; position:absolute; left:100px; bottom:100px; color:#fff; z-index:2;}
+.vis_txt > div {height:80px; overflow:hidden; margin-bottom:40px; }
+.vis_txt > div > h3 { animation:textani 10s infinite;}
+.vis_txt h3 {font-size:80px; font-weight:700;}
+
+
+@keyframes textani {
+    0% {transform: translateY(0px); -webkit-transform: translateY(0px);}
+    10% {transform: translateY(0px); -webkit-transform: translateY(0px);}
+    20% {transform: translateY(-84px); -webkit-transform: translateY(-84px);}
+    35% {transform: translateY(-84px); -webkit-transform: translateY(-84px);}
+    50% {transform: translateY(-163px); -webkit-transform: translateY(-163px);}
+    66% {transform: translateY(-163px); -webkit-transform: translateY(-163px);}
+    82% {transform: translateY(-84px); -webkit-transform: translateY(-84px);}
+    90% {transform: translateY(-84px); -webkit-transform: translateY(-84px);}
+    100% {transform: translateY(-0px); -webkit-transform: translateY(-0px);}
+
+}
+
+.black_screen {position:absolute; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:1;}
+.vis .video_wrap {height:100vh;}
+.vis video {display: block; width: 100%; max-height:100%; min-height: 100%; object-fit:cover;}
+
+
+@supports (-webkit-appearance:none) and (stroke-color: transparent) {
+    min-height: -webkit-fill-available;
+}
+
+@media screen and (max-width:1024px)  
+{
+    .vis_txt {height:125px; left:50px;}
+    .vis_txt h3 {font-size:50px;}
+    .vis_txt > div {height:50px; margin-bottom:25px;}
+    .vis_txt > div > h3 { animation:textani-tab 10s infinite;}
+
+}
+
+
+@keyframes textani-tab {
+    0% {transform: translateY(0px); -webkit-transform: translateY(0px);}
+    10% {transform: translateY(0px); -webkit-transform: translateY(0px);}
+    20% {transform: translateY(-54px); -webkit-transform: translateY(-54px);}
+    35% {transform: translateY(-54px); -webkit-transform: translateY(-54px);}
+    50% {transform: translateY(-103px); -webkit-transform: translateY(-103px);}
+    66% {transform: translateY(-103px); -webkit-transform: translateY(-103px);}
+    82% {transform: translateY(-54px); -webkit-transform: translateY(-54px);}
+    90% {transform: translateY(-54px); -webkit-transform: translateY(-54px);}
+    100% {transform: translateY(-0px); -webkit-transform: translateY(-0px);}
+
+}
+
+@media screen and (max-width:500px)  
+{
+    .black_screen {display:none;}
+    .vis_txt {height:125px; left:20px;}
+    .vis_txt h3 {font-size:30px;}
+    .vis_txt > div {height:30px; margin-bottom:25px;}
+    .vis_txt > div > h3 { animation:textani-mobile 10s infinite;}
+
+}
+
+
+@keyframes textani-mobile {
+    0% {transform: translateY(0px); -webkit-transform: translateY(0px);}
+    10% {transform: translateY(0px); -webkit-transform: translateY(0px);}
+    20% {transform: translateY(-32px); -webkit-transform: translateY(-32px);}
+    35% {transform: translateY(-32px); -webkit-transform: translateY(-32px);}
+    50% {transform: translateY(-65px); -webkit-transform: translateY(-65px);}
+    66% {transform: translateY(-65px); -webkit-transform: translateY(-65px);}
+    82% {transform: translateY(-34px); -webkit-transform: translateY(-34px);}
+    90% {transform: translateY(-34px); -webkit-transform: translateY(-34px);}
+    100% {transform: translateY(-0px); -webkit-transform: translateY(-0px);}
+
+}
+
+.main_center {width:78%; margin:0 auto;}
+
+@media screen and (max-width:1240px)  
+{
+    .main_center {width:90%;}
+
+}
+
+
+.mainMent {text-align:center; padding:150px 0;}
+.mainMent .logo {margin-bottom:85px;}
+.mainMent h3 {font-size:60px; font-weight:700; line-height:75px; margin-bottom:50px;}
+.mainMent p {font-size:20px; font-weight:400; line-height:34px;}
+
+@media screen and (max-width:1420px)  
+{
+    .mainMent h3 {font-size:40px; line-height:54px;}
+    
+}
+
+@media screen and (max-width:1024px)  
+{
+    .mainMent {padding:100px 0;}
+
+}
+
+@media screen and (max-width:768px)  
+{
+    .mainMent h3 {font-size:30px; line-height:44px;}
+
+}
+
+@media screen and (max-width:640px)  
+{
+    .mainMent .logo {margin-bottom:50px;}
+    .mainMent h3 {font-size:20px; line-height:34px; margin-bottom:25px;}
+    .mainMent p {font-size:15px; line-height:27px;}
+
+}
+
+
+.accordion {padding-bottom:200px;}
+.accordion  > h3 {font-size:60px; margin-bottom:60px; text-align:center;}
+
+.accordion .group {text-align: center; white-space: nowrap; overflow: hidden;}
+
+.accordion .group .item {width: 12vw; height: 75vh; background-position: center; background-size: 75vh; display: inline-block; cursor: pointer; background-size: cover; position:relative;}
+
+.accordion .group .item:nth-child(1) {width:52vw; background-image:url(../img/operation1.png);}
+.accordion .group .item:nth-child(2) {background-image:url(../img/operation2.png); margin:0 10px;}
+.accordion .group .item:nth-child(3) {background-image:url(../img/operation3.png);}
+
+.accordion .group .item .text_box {padding-left:88px; padding-top:75px; background-color:#fff; border-radius:0 100px 0 0; position:absolute; bottom:0; left:0; width:85%; text-align:left; opacity:0;}
+.accordion .group .item .text_box p {font-size:20px; margin-bottom:56px; color:var(--main-color);}
+.accordion .group .item .text_box h3 {font-size:50px; font-weight:700;}
+
+
+
+.accordion .group .item .hidetxt {writing-mode : vertical-rl; font-size:25px; color:#fff; font-weight:700; position: absolute; left: 50%; top:55px; transform: translateX(-50%); letter-spacing:2px;}
+
+.accordion .group .item.active .text_box {opacity:1;}
+.accordion .group .item.active .hidetxt {opacity:0;}
+
+
+@media screen and (max-width:1420px)  
+{
+    .accordion  > h3 {font-size:40px;}
+    .accordion .group .item .text_box {padding-left:30px;}
+    .accordion .group .item .text_box h3 {font-size:35px;}
+
+}
+
+@media screen and (max-width:840px)  
+{
+    .accordion  > h3 {font-size:30px;}
+    .accordion .group .item {height:60vh;}
+    .accordion .group .item .text_box {padding-left:20px; width:100%;}
+    .accordion .group .item .text_box h3 {font-size:20px;}
+    
+    .accordion .group .item .hidetxt {font-size:20px;}
+
+}
+
+@media screen and (max-width:500px)  
+{
+    .accordion .group .item .text_box {padding-top:40px; border-radius: 0 50px 0 0;}
+    .accordion .group .item .text_box p {font-size:13px; margin-bottom:34px;}
+    .accordion .group .item .text_box h3 {font-size:15px;}
+
+    .accordion .group .item .hidetxt {font-size:15px;}
+
+}
+
+.notice .flex_box {display:flex; justify-content:space-between; align-items:end; padding-bottom:24px; border-bottom:1px solid #000;}
+.notice h3 {font-size:60px; line-height:75px; font-weight:700;}
+.notice .plusbtn {display:block; width:60px; height:60px; line-height:60px; font-size:30px; border-radius:50%; background-color:#f9f9f9; border:1px solid #000; text-align:center; transition:all 0.4s ease-in-out; -webkit-transition:all 0.4s ease-in-out; border:1px solid var(--main-color); flex-shrink: 0;}
+.notice .plusbtn:hover {background-color:var(--main-color); color:#fff;}
+
+.notice .notice_list > div {border-bottom:1px solid #f3f3f3; }
+
+.notice .notice_list > div > a {display:flex; align-items:center; padding:40px 0 40px 60px; background-color:#fff; transition:all 0.4s ease-in-out; -webkit-transition:all 0.4s ease-in-out;}
+
+
+.notice .notice_list > div .date {margin-right:100px; text-align:center;}
+.notice .notice_list > div .date span {display:block; font-weight:500;}
+.notice .notice_list > div .date span.dd {font-size:40px; margin-top:16px;}
+
+.notice .notice_list > div .notice_title {font-size:34px; line-height:45px; font-weight:500; color:#000; transition:all 0.4s ease-in-out; -webkit-transition:all 0.4s ease-in-out;}
+
+.notice .notice_list > div:hover {border-bottom:1px solid var(--main-color);}
+.notice .notice_list > div:hover > a {background-color:#f4f4f4;}
+.notice .notice_list > div:hover .notice_title {color:var(--sub-color);}
+
+@media screen and (max-width:1240px)  
+{
+    .notice h3 {font-size:40px; line-height:55px;}
+
+}
+
+@media screen and (max-width:768px)  
+{
+    .notice h3 {font-size:30px; line-height:44px;}
+    .notice .notice_list > div .date {margin-right:70px;}
+    .notice .notice_list > div .notice_title {font-size:25px; line-height:34px;}
+
+}
+
+@media screen and (max-width:500px)  
+{
+    .notice .notice_list > div > a {padding:40px 20px;}
+    .notice .notice_list > div .date {margin-right:30px;}
+    .notice .notice_list > div .date span.dd {font-size:32px;}
+
+}
+
+
+@media screen and (max-width:430px)  
+{
+    .notice h3 {word-break: keep-all;}
+
+}
+
+
+
+
+
+
+
+
+
+

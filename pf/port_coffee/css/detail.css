@@ -1,0 +1,12 @@
+#container{ padding:60px 0;}
+
+#detailWrap .center{ width:62%; margin:20px auto; }
+#detailWrap .topText h4{ color:#745752; font-size:26px; text-align:center; margin-top:40px; margin-bottom:80px; }
+
+#detailWrap .detailTop h4 { color:#444; line-height:35px; font-size:20px; padding:10px; border-top:2px solid #ccc; border-bottom:2px solid #ccc;}
+#detailWrap .detailbot {height:550px; border-right:2px solid #ccc;border-bottom:2px solid #ccc;border-left:2px solid #ccc;}
+#detailWrap .detailbot h4 {padding:30px 10px; font-size:16px; font-weight:normal; line-height:25px; color:#666;}
+
+.listview {width:100px; border-radius:5px; background-color:#745752; text-align: center; margin:0 auto; margin-top:30px; transition:all 0.6s;}
+.listview:hover {background-color:#543e3a;}
+.listview a {display:block;line-height:30px; color:#fff;}

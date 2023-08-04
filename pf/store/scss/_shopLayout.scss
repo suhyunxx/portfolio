@@ -1,0 +1,32 @@
+body {background-color:#eeecec;}
+#container {
+    padding-top:180px;
+    #sec1 {
+        .center {
+            width:80%;
+            margin:0 auto;
+            .topTitle {
+                padding:40px 65px;
+                background-color:#fff;
+                text-align:left;
+                h3 {
+                    font-size:28px;
+                    color:#313232;
+                }
+            }
+        }
+    }
+}
+@media (max-width:500px) 
+{
+    #container {
+        #sec1 {
+            .center {
+                .topTitle {
+                    text-align:center;
+                }
+            }
+        }
+    }
+    
+}

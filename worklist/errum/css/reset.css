@@ -1,0 +1,99 @@
+/* 프리텐다드 폰트 */
+@font-face {font-family: 'Pretendard-ExtraLight'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff'); font-weight: 100; font-style: normal;}
+@font-face {font-family: 'Pretendard-Thin'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff'); font-weight: 200; font-style: normal;}
+@font-face {font-family: 'Pretendard-Light'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff'); font-weight: 300; font-style: normal;}
+@font-face {font-family: 'Pretendard-Regular'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Pretendard-Medium'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff'); font-weight: 500; font-style: normal;}
+@font-face {font-family: 'Pretendard-SemiBold'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff'); font-weight: 600; font-style: normal;}
+@font-face {font-family: 'Pretendard-Bold'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Pretendard-ExtraBold'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff'); font-weight: 800; font-style: normal;}
+@font-face {font-family: 'Pretendard-Black'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff'); font-weight: 900; font-style: normal;}
+
+/*
+font-family: 'IBM Plex Sans KR', sans-serif;
+*/
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+.mont {font-family: 'Montserrat', sans-serif;}
+:root {
+    --point-color : #014099;
+    --dash-color : #1e44d2;
+}
+*{ margin:0; padding:0; box-sizing:border-box;  }
+body{ line-height:1; font-family: 'Pretendard-Regular';}
+ul, ol, li{ list-style:none; }
+a{ text-decoration:none; color:#000; }
+img, video{ vertical-align:top; }
+.clear_fix::after{ content:""; display:block; clear:both; }
+table{ border-collapse:collapse; }
+table th {font-weight:normal;}
+input{ outline:0; padding:0 10px; font-size:16px; border: 1px solid #ddd;}
+input:placeholder-shown {font-size:14px;}
+
+.textover {text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+input[type="text"],input[type="password"],input[type="tel"] {height:46px; font-family: 'Pretendard-Regular';}
+input[type="radio"] {padding:0; background-color: #FFFF; -webkit-appearance: none; -moz-appearance: none;  border: 1px solid #ddd; width: 14px; height: 14px; border-radius: 100%;}
+
+input[type="radio"]:checked{
+    background-color:var(--point-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+}
+
+label {margin-right:15px;}
+
+.w1420 {width:74%; margin:0 auto;}
+.w1420-max {max-width:1420px; margin:0 auto;}
+
+@media all and (max-width:1200px)
+{
+    .w1420 {width:90%;}
+
+}
+
+@media all and (max-width:768px)
+{
+    .w1420 {width:95%;}
+    .w1420-max {max-width:1240px;}
+
+}       
+
+.point {color:var(--point-color);}
+.dash {color:var(--dash-color);}
+
+select {border:1px solid #ddd; width:230px; height:46px; font-family: 'Pretendard-Regular';}
+textarea {outline:none; font-family: 'Pretendard-Light'; border:1px solid #ddd;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+input[type="radio"] {margin-right:3px;}
+input[type="checkbox"] {margin-right:3px;}
+input[type="date"] {height:30px; font-family: 'Pretendard-Regular';}
+button {font-family: 'Pretendard-Regular';}
+
+body::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #d4d4d4; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #eaeaea;  /*스크롤바 뒷 배경 색상*/
+}
+
+.impor:after {
+    content: "*"; color:var(--point-color);
+}
+.impor_guide:after {content:"* 표시는 필수입력사항입니다."; font-size:15px; margin-left:20px; color:var(--point-color);}
+
+
+

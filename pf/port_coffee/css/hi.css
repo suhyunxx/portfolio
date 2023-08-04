@@ -1,0 +1,62 @@
+#sec1 .center {width:80%; margin:0 auto; padding:60px 0;}
+#sec1 .texts {text-align:center;}
+#sec1 .texts .mainTitle h4 {font-size:30px; color:#333; letter-spacing:2px;}
+#sec1 .texts .mainTitle h4:after {content:""; display:block; width:20px; height:1px; background-color:#444; margin:30px auto;}
+#sec1 .texts .subtext {margin-top:80px; margin-bottom:50px;}
+#sec1 .texts .subtext h5 {font-size:15px; font-weight:normal; line-height:30px;}
+#sec1 .imgWrap {width:100%;}
+#sec1 .imgWrap img {width:100%;}
+
+#sec2 .center {width:75%; margin:0 auto;}
+#sec2 .texts {text-align:center; margin-bottom:40px;}
+#sec2 .texts .mainTitle h4 {font-size:25px; font-weight:normal; color:#333; margin-bottom:30px;}
+#sec2 .texts .subtext h5 {font-size:15px; font-weight:normal; line-height:30px;}
+#sec2 .imgWrap {display:flex; justify-content:space-between;}
+#sec2 .imgWrap > div {width:48%;}
+#sec2 .imgWrap .img1 {margin-right:2%;}
+#sec2 .imgWrap .img2 {position:relative; top:300px;}
+#sec2 .imgWrap > div img {width:100%;}
+#sec2 .texts2 {margin:80px;}
+#sec2 .texts2 .mainTitle h4 {font-size:25px; font-weight:normal; color:#333; margin-bottom:30px; line-height:35px;}
+#sec2 .texts2 .subtext h5 {font-size:15px; font-weight:normal; line-height:30px;}
+
+#sec3 .center {width:85%; margin:0 auto; padding-bottom:60px;}
+#sec3 .center img {width:100%;}
+
+#sec4 .center {width:80%; margin:0 auto; padding-bottom:60px;}
+#sec4 .texts {text-align:center; margin-bottom:60px;}
+#sec4 .texts h4 {font-size:15px; font-weight:normal; line-height:30px;}
+#sec4 .imgWrap {width:100%;}
+#sec4 .imgWrap img {width:100%;}
+
+@media (max-width:1620px)
+{
+    #sec2 .imgWrap .img2 {top:150px;}
+    #sec2 .texts2 {margin:40px;}
+}
+
+@media (max-width:1200px)
+{
+    #sec2 .imgWrap .img2 {top:0;}
+    #sec2 .texts2 {text-align:center;}
+}
+
+@media (max-width:640px)
+{
+    #sec2 .texts .mainTitle h4 {font-size:23px;}
+    #sec2 .texts2 .mainTitle h4 {font-size:23px;}
+}
+
+@media (max-width:468px)
+{
+    #sec2 .texts .mainTitle h4 {font-size:20px;}
+    #sec2 .texts2 .mainTitle h4 {font-size:20px;}
+}
+
+@media (max-width:375px)
+{
+    #sec1 .center {width:90%;}
+    #sec2 .center {width:93%;}
+    #sec2 .texts .mainTitle h4 {font-size:17px;}
+    #sec2 .texts2 .mainTitle h4 {font-size:17px;}
+}

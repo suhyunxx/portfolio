@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 400;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{line-height: 1; font-family: 'NanumBarunGothic'; color:#333;}
+ul, ol, li{list-style: none;}
+a{text-decoration: none; color: #333;}
+img, video{vertical-align: top;}
+.clear_fix::after{content: ""; display: block; clear: both;}
+table {border-collapse: collapse;}
+input {outline:0;}
+

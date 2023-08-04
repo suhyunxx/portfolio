@@ -1,0 +1,82 @@
+/*** 리모델링 사례 배너 ***/
+.sec1{ height:500px; background-image:url(../img/remodeling_banner.jpg); background-position:top; background-size:cover; background-repeat:no-repeat; }
+.sec1 .center{ position:relative; height:100%; }
+.sec1 .main_title{ position:absolute; top:50%; left:100px; transform:translateY(-50%); }
+.sec1 .main_title h4{ color:#fff; font-size:40px; font-weight:normal; margin-bottom:15px; }
+.sec1 .main_title p{ color:#ccc; font-size:16px; text-indent:5px; }
+.sec2{ padding-bottom:60px; border-bottom:1px solid #e8e8e8; margin:60px 0; }
+.sec2 .center{ width:80%; margin:0 auto; }
+/*** 리모델링 사례 타이틀 ***/
+.sec2 .title{ padding:20px 0; border-bottom:1px solid #e8e8e8; margin-bottom:40px; }
+.sec2 .title h4{ color:#444; font-size:25px; margin-bottom:10px; }
+.sec2 .title p{ color:#888; font-size:15px; }
+/*** 조회수,인기,최신 ***/
+.sec2 .array_list{ display:flex; justify-content:right; margin-right:5px; margin-bottom:20px; }
+.sec2 .array_list li{ margin:0 5px; }
+.sec2 .array_list li.on a{ color:#e71717; font-weight:bold; }
+/*** 리모델링 사례 콘텐츠 ***/
+.sec2 .ex_wrap{ display:flex; flex-wrap:wrap; }
+.sec2 .ex_wrap .ex{ width:31.333333%; margin:0 1%; }
+.sec2 .ex_wrap .ex .imgbox{ position:relative; border-radius:5px; overflow:hidden; }
+.sec2 .ex_wrap .ex .imgbox .bg{ position:absolute; width:100%; height:100%; top:0; left:0; background-color:rgba(255, 255, 255, 0.3); opacity:0; transition:all 0.6s; }
+.sec2 .ex_wrap .ex .imgbox:hover .bg{ opacity:1; }
+.sec2 .ex_wrap .ex .imgbox a{ display:block; }
+.sec2 .ex_wrap .ex img{ width:100%; }
+.sec2 .ex_wrap .ex .txtbox{ position:relative; padding:5px; }
+.sec2 .ex_wrap .ex .txtbox h4{ color:#555; font-size:16px; margin-bottom:10px; }
+.sec2 .ex_wrap .ex .txtbox .bottext{ display:flex; margin-bottom:20px; }
+.sec2 .ex_wrap .ex .txtbox .bottext p{ font-size:15px; margin-right:10px; }
+.sec2 .ex_wrap .ex .txtbox .bottext p:after{ content:""; display:inline-block; width:1px; height:10px; background-color:#999; margin-left:10px; }
+.sec2 .ex_wrap .ex .txtbox .bottext p:last-child::after{ width:0; }
+.sec2 .ex_wrap .ex .txtbox .heart{ z-index:2; position:absolute; top:-30px; right:15px; }
+.sec2 .ex_wrap .ex .txtbox .heart:hover i{ color:#e71717; }
+.sec2 .ex_wrap .ex .txtbox .heart i{ color:#fff; font-size:20px; transition:all 0.5s; }
+      
+@media (max-width:1210px) 
+{
+    #header .center {width:90%;}  
+}
+
+
+@media (max-width:1200px) 
+{
+    .gnb > li {width:119px;}
+
+    .sec2 .center {width:90%;}
+}
+
+@media (max-width:950px) 
+{
+    #header .center {width:98%;}  
+    .right_util li a {margin:0 5px;}
+
+    .sec2 .ex_wrap .ex {width:48%;}
+        
+    #footer .topfooter {justify-content:center;}
+    #footer .topfooter .footer_gnb {display:none;}
+    .swiper {width: 90%; }  
+}
+
+@media (max-width:840px)
+{
+    /*헤더*/
+    #header .center {width:95%;}
+    .logo {padding:5px 0;}
+
+    .gnb {display:none;}
+    .right_util {display:none;}
+    .ham {display:block;}
+    
+    /* 배너 */
+    .sec1 .main_title {left:50%; transform:translate(-50%,-50%);}
+    .sec1 .main_title h4 {font-size:30px;}
+    .sec1 .main_title p {font-size:16px;}
+
+    /*풋터*/
+    .swiper {width: 50%; }  
+}
+
+@media (max-width:640px) 
+{
+    .sec2 .ex_wrap .ex {width:98%;}
+}

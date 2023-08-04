@@ -1,0 +1,89 @@
+@media screen and (max-width:1200px){
+    #header {
+        .center {
+            width:90%;
+
+            .gnb {
+                > li {
+                    width:100px;
+                    > a {
+                        font-size:17px;
+                    }
+                }
+            }
+            .snsList {
+                > li {
+                    >a {
+                        i {
+                            font-size:25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:970px) 
+{
+    #footer {
+        .center {
+            width:90%;
+        }
+        
+    }
+}
+@media screen and (max-width:840px) 
+{
+    #header {
+        .center {
+            .logo {
+                margin:20px auto;   
+            }
+            .gnb {
+                display:none;
+            }
+            .ham {
+                display:block;
+            }
+        }
+    }
+    #footer {
+        .center {
+            .f_bot {
+                .fb_right {
+                    .number {
+                        display:block;
+                        li {
+                            margin:10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:640px)
+{
+    #footer {
+        .center {
+            .f_top {
+                justify-content:center;
+            }
+            .f_bot {
+                display:block;
+                text-align:center;
+                .f_logo {
+                    margin-right:0;
+                }
+                .fb_right {
+                    .information {
+                        display:block;
+                        li {
+                            margin:10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

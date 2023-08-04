@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{line-height: 1;  font-family: 'S-CoreDream-3Light';}
+ul, ol, li{list-style: none;}
+a{text-decoration: none; color: black;}
+img, video{vertical-align: top;}
+.clear_fix::after{content: ""; display: block; clear: both;}
+table {border-collapse: collapse;}
+input {outline:0;}
+

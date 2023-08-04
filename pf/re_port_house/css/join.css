@@ -1,0 +1,138 @@
+/*헤더*/
+#header{ z-index:99; position:fixed; width:100%; top:0; left:0; background-color:#444; transition:all 0.6s; }
+#header.on{ background-color:#fff; }
+#header .center{ width:80%; display:flex; justify-content:space-between; margin:0 auto; }
+.logo{ margin-top:6px; }
+.logo a{ display:block; }
+.logo img{ width:180px; height:auto; }
+.gnb{ display:flex; }
+.gnb > li{ position:relative; width:160px; line-height:80px; text-align:center; }
+.gnb > li > a{ display:block; color:#eee; font-size:17px; font-weight:bold; transition:all 0.5s; }
+#header.on .gnb > li > a:hover{ color:#f7841d; }
+.gnb > li > a:hover{ color:#f7841d; }
+#header.on .gnb > li > a{ color:#333; }
+/***모바일 햄버거***/
+.ham{ position:absolute; top:50%; right:30px; transform:translateY(-50%); display:none; font-size:23px; }
+.ham i{ color:#fff; }
+/*서브gnb*/
+.sub_gnb{ position:absolute; height:0; left:50%; transform:translateX(-50%); overflow:hidden; text-align:left; }
+.sub_gnb li{ width:160px; line-height:40px; text-align:center; }
+.sub_gnb li a{ display:block; width:100%; }
+.sub_gnb li:hover a{ color:#f7841d; }
+.sub_gnb.on{ height:300px; }
+#header.on .sub_gnb li a{ color:#333; }
+#header.on .sub_gnb li:hover a{ color:#f7841d; }
+.sub_gnb li a{ display:block; color:#444; font-size:15px; transition:all 0.6s; }
+.gnb_bg{ width:100%; height:0; overflow:hidden; transition:all 0.6s; }
+.gnb_bg.on{ height:300px; }
+.right_util{ display:flex; }
+.right_util li{ line-height:80px; margin:0 10px; }
+.right_util li a{ display:block; color:#eee; font-size:15px; font-weight:bold; transition:all 0.6s; }
+#header.on .right_util li a{ color:#333; }
+.right_util li:hover a{ color:#f7841d; }
+#header.on .right_util li:hover a{ color:#f7841d; }
+/***모바일메뉴***/
+.mobile{ position:fixed; top:0; left:-100%; width:250px; height:100%; padding:30px; background-color:#fff; transition:all 0.5s; }
+.mobile .close{ text-align:right; margin-bottom:40px; }
+.mobile .close i{ font-size:22px; }
+.mobile .m_right_util{ display:flex; justify-content:center; margin-bottom:15px; }
+.mobile .m_right_util li{ width:80px; border-radius:5px; background-color:#000; text-align:center; line-height:30px; margin:0 10px; }
+.mobile .m_right_util li a{ color:#fff; font-size:13px; }
+.mobile .mobile_title{ width:90%; height:25px; border-radius:5px; background-color:#000; text-align:center; margin:0 auto; margin-bottom:20px; }
+.mobile .mobile_title h4{ color:#fff; font-size:15px; line-height:25px; font-weight:normal; }
+.mobile .m_gnb{ position:relative; text-align:center; }
+.mobile .m_gnb > li{ line-height:25px; margin-bottom:20px; background-image:url(../img/downward-arrow.png); background-position:top 3px right; background-repeat:no-repeat; background-size:16px; }
+.mobile .m_gnb > li.on{ background-image:url(../img/upward-arrow.png); }
+.mobile .m_gnb > li a{ font-size:16px; display:block; }
+.mobile .m_gnb .m_sub_gnb{ display:none; }
+.mobile .m_gnb .m_sub_gnb li{ line-height:23px; }
+.mobile .guide{ margin-top:50px; margin-bottom:30px; }
+.mobile .guide h4{ font-size:13px; font-weight:normal; margin-bottom:8px; }
+.mobile .searchWrap{ position:relative; }
+.mobile .searchText{ width:100%; padding:5px 0; border:none; border-bottom:1px solid #000; }
+ .mobile .searchWrap .searchBtn{ position:absolute; top:50%; right:5px; transform:translateY(-50%); border:none; background-color:transparent; cursor:pointer; }
+.mobile .searchWrap .searchBtn i{ color:#444; font-size:18px; }
+.mobile .m-sns{ display:flex; justify-content:center; margin-top:40px; }
+.mobile .m-sns li{ margin:0 10px; }
+.mobile .m-sns li i{ color:#444; font-size:20px; }
+/*헤더 끝*/
+
+
+
+
+
+/*컨테이너*/
+#sec1 {border-bottom:1px solid #e8e8e8;}
+#sec1 .center{ width:60%; margin:120px auto; }
+.join_title{ border-bottom:1px solid #333; margin-bottom:20px; }
+.join_title h4{ padding-bottom:20px; color:#333; font-size:22px; }
+.agreeset{ border-bottom:1px solid #333; margin-bottom:20px; }
+.allagree{ margin-bottom:28px; }
+.agreeset input{ position:relative; top:1px; }
+.texts{ width:95%; height:100px; padding:5px; border:1px solid #aaaaaa; overflow:auto; margin:20px auto; }
+
+.informations { display:flex; justify-content:center; flex-wrap:wrap; padding-bottom:50px; }
+.informations .list { width:48%; margin-top:30px;margin-right:1%; }
+.informations .list > div{ position:relative; text-align:center; margin-top:10px; }
+.informations .list label{ width:250px; font-size:15px; }
+.informations .list input{ width:100%; padding-left:10px; font-size:15px; line-height:28px; }
+.informations .list input::placeholder{ color:#8b8b8b; font-size:12px; }
+#birth_first, #birth_third{ width:31.333333%; }
+.informations .list select{ width:31.333333%; height:32px; }
+#gender{ width:100%}
+.joinbtn_wrap{ text-align:center; margin-top:30px; }
+.joinbtn{ width:120px; height:35px; border:none; background-color:#333; color:#fff; cursor:pointer; }
+.error_msg{ position:absolute; display:none; color:#e61919; font-size:14px; margin-top:5px; }
+.list > div input.error ~ .error_msg{ display:block; }
+.list > div input.success ~ .error_msg{ display:none; }
+.list > div select.error ~ .error_msg{ display:block; }
+.list > div select.success ~ .error_msg{ display:none; }
+.allagree label.error ~ .error_msg{ display:block; }
+.allagree .label.success ~ .error_msg{ display:none; }
+
+@media (max-width:1210px) 
+{
+    #header .center {width:90%;}  
+}
+
+
+@media (max-width:1200px) 
+{
+    .gnb > li {width:119px;}
+
+    .informations .list {width:44%;}
+}
+
+@media (max-width:950px) 
+{
+    #header .center {width:98%;}  
+    .right_util li a {margin:0 5px;}
+
+    #sec1 .center {width:66%;}
+    .informations .list {width:80%;}
+        
+    #footer .topfooter {justify-content:center;}
+    #footer .topfooter .footer_gnb {display:none;}
+    .swiper {width: 90%; }    
+}
+
+@media (max-width:840px)
+{
+    /*헤더*/
+    #header .center {width:95%;}
+    .logo {padding:5px 0;}
+    .gnb {display:none;}
+    .right_util {display:none;}
+    .ham {display:block;}
+
+    .informations .list {width:80%;}
+    
+    /*풋터*/
+    .swiper {width: 50%; } 
+}
+
+@media (max-width:768px) 
+{
+    #sec1 .center {width:80%;}
+}
+

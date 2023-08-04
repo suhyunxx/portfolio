@@ -1,0 +1,56 @@
+/*나눔스퀘어 네오*/
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+/*font-weight 300 400 700 800 900*/
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*font-weight 300 500 700*/
+
+/*font-family: 'Montserrat', sans-serif;*/
+
+
+:root {
+    --point-color : #0072b7;
+}
+*{ margin:0; padding:0; box-sizing:border-box;  }
+body{ line-height:1; font-family: 'NanumSquareNeo'; font-weight:400;}
+ul, ol, li{ list-style:none; }
+a{ text-decoration:none; color:#000; }
+img, video{ vertical-align:top; }
+.clear_fix::after{ content:""; display:block; clear:both; }
+table{ border-collapse:collapse; }
+table th {font-weight:normal;}
+input{ outline:0; padding:0 10px; font-size:16px; 
+    border: 1px solid #ddd; font-family: 'NanumSquareNeo';}
+
+input:placeholder-shown {font-size:14px; font-family: 'NanumSquareNeo';}
+button {font-family: 'NanumSquareNeo';}
+select {border:1px solid #ddd; font-family: 'NanumSquareNeo';}
+textarea {outline:none; font-family: 'NanumSquareNeo'; padding:10px;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+input[type="radio"] {margin-right:3px;}
+input[type="checkbox"] {margin-right:3px;}
+
+
+textarea::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+textarea::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #d4d4d4; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #eaeaea;  /*스크롤바 뒷 배경 색상*/
+}
+
+.point-blue {color:#0d7dc1;}
+
+

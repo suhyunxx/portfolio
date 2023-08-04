@@ -1,0 +1,15 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+    font-family: 'Eulyoo1945-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html {overflow-x : hidden;}
+body{line-height: 1; overflow-x:hidden; font-family: 'NanumSquare', sans-serif;}
+ul, ol, li{list-style: none;}
+a{text-decoration: none; color: black;}
+img, video{vertical-align: top;}
+table {border-collapse: collapse;}
+input {outline:0;}

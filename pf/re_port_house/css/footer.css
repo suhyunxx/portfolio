@@ -1,0 +1,33 @@
+/***풋터***/
+#footer .center{ width:90%; margin:50px auto 30px; }
+/* 풋터 첫 줄 감싸는 부분*/
+#footer .topfooter{ display:flex; justify-content:space-between; padding-bottom:30px; border-bottom:2px solid rgb(241, 241, 241); margin-bottom:40px; }
+/* 풋터 첫 줄 왼쪽*/
+#footer .information > div{ display:flex; align-items:center; margin-bottom:20px; }
+#footer .information > div .left{ width:60px; color:#ccc; font-size:15px; font-weight:normal; margin-right:20px; }
+#footer .information > div .right{ color:#ccc; font-weight:normal; }
+#footer .information > div .redcolor{ color:#e60044; font-size:17px; }
+#footer .information > div .blackcolor{ color:#000; font-size:15px; }
+/* 풋터 첫 줄 오른쪽 메뉴*/
+#footer .f_gnb{ display:flex; }
+#footer .f_gnb > li{ position:relative; width:160px; text-align:center; line-height:30px; }
+#footer .f_gnb > li a{ display:block; transition:all 0.4s; }
+#footer .f_gnb .f_sub_gnb{ position:absolute; left:50%; transform:translateX(-50%); }
+#footer .f_gnb .f_sub_gnb li{ width:160px; line-height:25px; }
+#footer .f_gnb .f_sub_gnb li a{ display:block; font-size:14px; }
+#footer .f_gnb > li:hover > a{ color:#e60044; }
+#footer .f_gnb .f_sub_gnb li:hover a{ color:#e60044; }
+/* 풋터 스와이퍼*/
+.swiper{ width:70%; }
+.swiper-wrapper > div{ width:20%; text-align:center; }
+.swiper-wrapper > div img{ width:60%; }
+/* 풋터 아랫부분 */
+.botfooter{ border-top:2px solid rgb(241, 241, 241); margin-top:30px; }
+.botfooter .center{ display:flex; justify-content:space-between; width:90%; margin:0 auto; }
+/* 풋터 아랫부분 왼쪽 */
+.botfooter h4{ font-size:14px; font-weight:normal; }
+.botfooter h4 span{ color:#e60044; }
+/* 풋터 아랫부분 오른쪽*/
+.botfooter .sns{ display:flex; }
+.botfooter .sns li{ margin:0 6px; }
+.botfooter .sns li a{ color:#555; font-size:20px; }

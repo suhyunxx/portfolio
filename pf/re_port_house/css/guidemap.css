@@ -1,0 +1,71 @@
+/*** 쇼룸 안내 배너 ***/
+.sec1{ height:500px; background-image:url(../img/showroom_banner.jpg); background-position:top; background-size:cover; background-repeat:no-repeat; }
+.sec1 .center{ position:relative; height:100%; }
+.sec1 .main_title{ position:absolute; top:50%; left:100px; transform:translateY(-50%); }
+.sec1 .main_title h4{ color:#fff; font-size:40px; font-weight:normal; margin-bottom:15px; }
+.sec1 .main_title p{ color:#e8e8e8; font-size:16px; text-indent:5px; }
+
+/*** 지점 안내 타이틀 ***/
+.sec2{ padding-bottom:60px; border-bottom:1px solid #e8e8e8; margin:60px 0; }
+.sec2 .center{ width:80%; margin:0 auto; }
+.sec2 .first{ padding-bottom:60px; border-bottom:1px solid #e8e8e8; margin-bottom:60px; }
+.sec2 .title{ padding:20px 0; border-bottom:1px solid #e8e8e8; margin-bottom:40px; }
+.sec2 .title h4{ color:#3f3e3e; font-size:25px; margin-bottom:10px; }
+.sec2 .subtitle h5{ color:#3f3e3e; font-size:20px; text-indent:74px; margin-bottom:30px; }
+.sec2 .mapList{ display:flex; justify-content:space-between; align-items:center; }
+#map{ width:60%; height:400px; margin:0 auto; }
+#map2{ width:60%; height:400px; margin:0 auto; }
+.sec2 .mapList .information{ width:30%; }
+.sec2 .mapList .information h5{ color:#3f3e3e; font-size:16px; font-weight:normal; margin-bottom:10px; }
+
+@media (max-width:1210px) 
+{
+    #header .center {width:90%;}  
+}
+
+
+@media (max-width:1200px) 
+{
+    .gnb > li {width:119px;}
+
+    .sec2 .center {width:95%;}
+}
+
+@media (max-width:950px) 
+{
+    #header .center {width:98%;}  
+
+    .right_util li a {margin:0 5px;}
+
+    .sec2 .mapList {flex-wrap:wrap; justify-content:center;}
+    .sec2 .subtitle h5 {text-indent:0;}
+    .sec2 .mapList .information {width:100%; text-align:center; margin-top:20px; }
+    .sec2 .mapList .information h5 {color:#3f3e3e; font-size:16px; font-weight:normal; margin-bottom:10px; }
+
+    #map {width:100%; height:400px; margin:0 auto;}
+    #map2 {width:100%; height:400px; margin:0 auto;}
+    
+    #footer .topfooter {justify-content:center;}
+    #footer .topfooter .footer_gnb {display:none;}
+
+    .swiper {width: 90%; }
+}
+
+@media (max-width:840px)
+{
+    /*헤더*/
+    #header .center {width:95%;}
+    .logo {padding:5px 0;}
+
+    .gnb {display:none;}
+    .right_util {display:none;}
+    .ham {display:block;}
+    
+    /* 배너 */
+    .sec1 .main_title {left:50%; transform:translate(-50%,-50%);}
+    .sec1 .main_title h4 {font-size:30px;}
+    .sec1 .main_title p {font-size:16px;}
+
+    /*풋터*/
+    .swiper {width: 50%; }
+}

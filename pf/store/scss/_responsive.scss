@@ -1,0 +1,262 @@
+@media screen and (max-width:1630px) 
+{
+    #sec4 {
+        .center {
+            width:90%;
+            .noticeWrap {
+                .noticeList {
+                    .img {
+                        img {
+                            width:130px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1200px){
+    #sec3 {
+        .center {
+            width:90%;
+            .menuList {
+                .menu {
+                    width:45%;
+                    margin-bottom:20px; 
+                    &:nth-child(5) {display:none;}
+                }
+            }
+        }
+    }
+
+    #sec4 {
+        .center {
+            width:90%;
+            .noticeWrap {
+                .noticeList {
+                    .img {
+                        display:none;
+                    }
+                }
+            }
+        }
+    }
+
+    #sec5 {
+        .center {
+            width:90%;
+        }
+    }
+
+}
+@media screen and (max-width:1140px) 
+{
+    #sec5 {
+        .center {
+            width:95%;
+            .guideContents {
+                .fran_left{
+                    padding-right:40px;
+                    .guideWrap {
+                        .guideList {
+                            .iconCircle {
+                                width:60px;
+                                height:60px;
+                                &:hover {
+                                    i {
+                                        font-size:38px;
+                                    }
+                                }
+                                a {
+                                    i {
+                                        font-size:30px;
+                                    }
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+                .fran_right {
+                    padding-left:40px;
+                    .phoneWrap {
+                        .iconCircle {
+                            width:80px;
+                            height:80px;
+                            i {
+                                font-size:50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:970px) 
+{
+    #sec1 {
+        .center {
+            .view {
+                > div {
+                    .viewText {
+                        left:50%;
+                        transform:translate(-50%,-50%);
+                        text-align:center;
+                        h5 {
+                            color:#dedddd;
+                        }
+                        h3 {
+                            color:#dedddd;
+                        }
+                    }
+                }
+            }
+            .autobtn {
+                left:80%;
+            }
+        }
+    }
+    #sec4 {
+        .center {
+            padding-bottom:0;
+        }
+    }
+    #sec5 {
+        background-image: none;
+        .center {
+            width:100%;
+            padding:0;
+            .guideContents {
+                display:block;
+                .fran_left {
+                    width:100%;
+                    padding:60px 0;
+                    background-color:#c4141b;
+                }
+                .fran_right {
+                    width:100%;
+                    padding:60px 0;
+                    background-color:#323131;
+                    .phoneWrap {
+                        justify-content: center;
+                    }
+                    .when {
+                        text-align:center;
+                    }
+                    .request {
+                        margin:0 auto;
+                        margin-top:30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width:840px) 
+{
+    #sec3 {
+        .center {
+            width:80%;
+            .menuList {
+                .menu {
+                    width:65%;
+                    &:nth-child(5) {display:block;}
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width:640px)
+{
+    #sec3 {
+        .center {
+            .menuList {
+                .menu {
+                    width:80%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:540px)
+{
+    #sec3 {
+        .center {
+            .menuList {
+                .menu {
+                    width:95%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:500px) 
+{
+    #sec1 {
+        .center {
+            .view {
+                > div {
+                    .viewText {
+                        h5 {
+                            font-size:20px;
+                        }
+                        h3 {
+                            font-size:26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #sec2 {
+        .center {
+            width:100%;
+            .flexBox {
+                flex-wrap:wrap;
+                > div:nth-child(1){
+                    box-shadow:none;
+                }
+                > div:nth-child(2){
+                    box-shadow:none;
+                    width:100%;
+                    top:0;
+                    right:0;
+                }
+                .brandBox {
+                    width:100%;
+                    box-shadow:none;
+                    text-align:center;
+                    .more {
+                        margin:0 auto;
+                    }
+                }
+            }
+        }
+    }
+    #sec4 {
+        .center {
+            .noticeWrap {
+                .noticeList {
+                    padding:30px;
+                    .day {
+                        margin-right:40px;
+                    }
+                }
+            }
+        }
+    }
+    #sec3 {
+        .center {
+            width:90%;
+            .menuList {
+                .menu {
+                    width:100%;
+                }
+            }
+        }
+    }
+}
